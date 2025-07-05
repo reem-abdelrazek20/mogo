@@ -1,0 +1,91 @@
+/* === الأساسي === */
+.main-header {
+  background-color: #fff;
+  padding: 15px 30px;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.main-menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.main-menu li a:hover {
+  color: #219ed4;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.username {
+  font-size: 16px;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* === الريسبونسف للموبايل === */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    color: #333;
+  }
+
+  nav {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    z-index: 10;
+  }
+
+  nav.active {
+    max-height: 500px;
+  }
+
+  .main-menu {
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .main-menu li {
+    width: 100%;
+    text-align: left;
+  }
+}

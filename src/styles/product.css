@@ -1,0 +1,12 @@
+.counter {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter .btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
