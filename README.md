@@ -29,9 +29,7 @@ This is a small **frontend project** built with **React**. It’s a basic shoppi
 This project was a learning experience for me to practice working with real APIs, React components, and state management.  
 Now I’m looking for real team experience (volunteer, internship, or a small project) to learn more from others. 🙏
 
-## 🌐 Live Demo
 
-👉 [View Project](https://4fd2zr.csb.app/)
 
 ## 📩 Contact Me
 
